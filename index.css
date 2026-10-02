@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: Smythe, serif;
+    padding-bottom: 30px;
+} 
+
+#hero {
+    width: 100%;
+    height: 160px;
+    background-image: url(./images/jimmys.diner.jpg);
+    background-position: 50% 65%;
+    background-size: 100%;
+    padding-top: 60px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.background-shadow {
+    text-shadow: 1px 1px 3px #000000;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 400;
+}
+
+h1 {
+    margin: 0px;
+    color: #000000;
+    font-size: 2.5em;
+    font-style: normal;
+}
+
+h2 {
+    color: #000000;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: 1em; 
+    margin-top: .25em; 
+    margin-bottom: 0px;
+    color: #8B8B8B;
+}
+
+h4 {
+    font-size: 1.25em;
+    margin-top: .5em;
+    margin-bottom: 0px;
+    height: 24px;
+}
+
+.menu-name {
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+    padding: 6px 0px;
+    word-break: normal;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.menu-desc {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.menu-img {
+    font-size: 4.5em;
+    opacity: 0.9;
+}
+
+button {
+    font-family: inter, sans-serif;
+    font-weight: 200;
+}
+
+.remove-btn {
+    font-size: .75em;
+    color: #BBBBBB;
+    background: none;
+    margin: 0px 10px;
+    border: none;
+    height: 20px;
+}
+
+#plus-btn {
+    font-size: 1.5em;
+    color: #000000;
+    height: 40px;
+    width: 40px;
+    background: none;
+    margin-top: 20px;
+    padding-bottom: 3px;
+    border: 1px solid #DEDEDE;
+    border-radius: 50%;
+}
+
+.price {
+    margin-bottom: 20px;
+}
+
+#checkout {
+    margin: 50px 30px 30px 30px;
+    text-align: center;
+    padding: 0px;
+ }
+
+.flex-container-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0px;  
+}
+
+.flex-container-gap {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    padding: 0px;
+}
+
+#added-item {
+    margin-top: 0px;
+}
+
+.space-below {
+    margin-bottom: 1em;
+}
+
+.space-above {
+    margin-top: 1em;
+    border-top: 2px solid #393333;
+}
+
+#complete-order {
+    width: 100%;
+    background-color: #16DB99;
+    color: #FFFFFF;
+    font-family: inter;
+    font-weight: 700;
+    border: none;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: .75em;
+}
+
+
+
