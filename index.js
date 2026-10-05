@@ -108,8 +108,7 @@ document.getElementById('close-card-details').addEventListener('click', function
 })
 
 
-cardForm.addEventListener('click',function(e){
-    if (e.target && e.target.id === 'pay-btn'){
+cardForm.addEventListener('submit',function(e){
         const nameInput = document.getElementById('full-name').value
         e.preventDefault()
         thankYouSection.classList.remove('hidden')
@@ -127,7 +126,6 @@ cardForm.addEventListener('click',function(e){
         enterCardDetails.classList.add('hidden')
         checkout.classList.add('hidden')
         orderArr = []
-    }
 })
 
 
